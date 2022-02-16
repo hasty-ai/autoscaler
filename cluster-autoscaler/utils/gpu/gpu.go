@@ -24,7 +24,7 @@ import (
 
 const (
 	// ResourceNvidiaGPU is the name of the Nvidia GPU resource.
-	ResourceNvidiaGPU = "nvidia.com/gpu"
+	ResourceNvidiaGPU = "k8s.amazonaws.com/vgpu"
 	// DefaultGPUType is the type of GPU used in NAP if the user
 	// don't specify what type of GPU his pod wants.
 	DefaultGPUType = "nvidia-tesla-k80"
